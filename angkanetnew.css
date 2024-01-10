@@ -1,0 +1,79 @@
+.ballnet {
+	width:28px; height:28px; line-height:28px;
+	font-size:18px; font-weight:bold; text-align:center;
+	display:inline-block; padding:0; margin:0;
+    box-shadow: inset -8px -8px 5px rgb(0 0 0 / 50%);
+    text-shadow: 2px 2px rgb(0 0 0 / 70%);
+}
+}
+.keluarannet a {
+	text-decoration:none !important; color:#333 !important;
+}
+.keluarannet a:visited {
+	color:#333 !important;
+}
+.keluarannet a:hover {
+	color:#2f5eaf !important;
+}
+.pasaranaction a {
+	text-decoration:none !important; font-size:14px; padding:2px 12px;
+}
+a.btn {
+	text-decoration:none !important;
+}
+.lvedr {
+	max-width:100%;
+	margin: 0 auto 20px; padding:0;
+}
+.borderlive {
+	border:2px solid #818181;
+}
+.lvedr {
+	margin-left:10px; margin-right:10px;
+	font-weight:bold;
+}
+.lvedr a {
+	text-decoration:none !important;
+}
+.lvedr h3 {
+	font-size:20px;
+}
+.lvedr p {
+	padding-bottom:0 !important;
+}
+.tblvdr {
+	margin:0;padding:0;width:100%;
+}
+.tblvdr td {
+	border-width:2px !important; border-style:solid !important; font-size:16px;
+	border-top:0; text-align:center !important; padding:3px 0 !important;
+	border:2px solid #818181 !important;
+}
+.tblvdrsgp2 td {
+	font-size:18px;
+}
+.gradiasi {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.5)));	
+}
+.page-template-page-blank {
+	background:transparent !important; overflow-x:hidden;
+}
+.lvedrstats {
+  animation: blinker 1s linear infinite;display:none;
+  position:absolute;top:4px;right:5px;letter-spacing:0.3px;border-radius:3px;
+  font-size:11px;color:#FFF;z-index:2;margin:0 !important;padding:0 5px;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+@media (max-width:767px){
+	.page-template-page-blank .row {
+		margin:0;
+	}
+	.page-template-page-blank .col-sm-6 {
+		padding:0;
+	}
+}
